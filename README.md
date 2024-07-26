@@ -17,7 +17,7 @@ The data file paths can be changed in case you want to train the model with othe
 
 ## Model Load
 
-The [random_forest.joblib]("./Model_Training/random_forest.joblib") file contains the trained model with all the data. To import it you need to use the `load` method of `joblib`:
+The [random_forest.joblib]("/Model_Training/random_forest.joblib") file contains the trained model with all the data. To import it you need to use the `load` method of `joblib`:
 
 `loaded_rf = joblib.load(<route_to_model>)`
 
