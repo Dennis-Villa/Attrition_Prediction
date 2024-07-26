@@ -1,12 +1,12 @@
 # Summary of Development Steps
 
-## [In and Out Logs Data Transformation](/Notebooks/In_Out_Data_Function.ipynb)
+## [In and Out Logs Data Transformation](./Notebooks/In_Out_Data_Function.ipynb)
 
 My first step in this project was to analyze the data sets presented to me. The other datasets had their structure ready to be used in a DataFrame, but `in_data` and `out_data` needed previous steps in order to get relevant information from them.
 
 After my analysis I determined that the best information I could extract was the number of days each employee missed from work, as well as the average daily and weekly hours worked. I structured this data as a pandas DataFrame using a function for this purpose.
 
-## [Imputation and Encoding of the Data](/Notebooks/Imputation_Encoding.ipynb)
+## [Imputation and Encoding of the Data](./Notebooks/Imputation_Encoding.ipynb)
 
 The rest of the datasets, not including `in_data` and `out_data` were ready to be processed. The first thing would be to determine the columns of numerical type and those of categorical type because they have a differentiated treatment.
 
@@ -24,7 +24,7 @@ As can be seen in the correlation matrices section, many of the columns have a h
 
 To solve the problem, I applied a [Principal Component Analysis](/Notebooks/Dimensionality_Reduction.ipynb) (PCA) algorithm to reduce the dimensionality and correlation of the data.
 
-![Correlation Matrix](<Correlation_Matrix.png>)
+![Correlation Matrix](<./Correlation_Matrix.png>)
 
 As can be observed, the PCA algorithm reduced the correlation of the columns, ensuring that all had less than 0.4 correlation with each other.
 
