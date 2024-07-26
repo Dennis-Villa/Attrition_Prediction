@@ -22,7 +22,7 @@ Having my functionalities ready to transform the data, I performed a deep analys
 
 As can be seen in the correlation matrices section, many of the columns have a high level of correlation with each other, which can affect the model by causing overfitting.
 
-To solve the problem, I applied a [Principal Component Analysis](/Notebooks/Dimensionality_Reduction.ipynb) (PCA) algorithm to reduce the dimensionality and correlation of the data.
+To solve the problem, I applied a [Principal Component Analysis](./Notebooks/Dimensionality_Reduction.ipynb) (PCA) algorithm to reduce the dimensionality and correlation of the data.
 
 ![Correlation Matrix](<./Correlation_Matrix.png>)
 
