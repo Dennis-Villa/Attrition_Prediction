@@ -4,7 +4,7 @@ I show here the most important information I obtained after analyzing the relati
 
 The complete analysis can be seen here:
 
-- The columns
+- [The columns](./Data_Analysis.ipynb)
 - The model
 
 ## Multi Variant Analysis
