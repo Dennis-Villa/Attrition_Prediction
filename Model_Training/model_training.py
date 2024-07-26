@@ -413,5 +413,4 @@ if test:
 # Prediction Model
 
 if not test:
-
   aplication.fit(X, y)
