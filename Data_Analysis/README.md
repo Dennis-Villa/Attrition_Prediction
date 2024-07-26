@@ -5,7 +5,7 @@ I show here the most important information I obtained after analyzing the relati
 The complete analysis can be seen here:
 
 - [The columns](./Data_Analysis.ipynb)
-- The model
+- [The model](../Model_Training/Model_Pipeline_Training.ipynb)
 
 ## Multi Variant Analysis
 
